@@ -4,8 +4,10 @@
 - clean: ['~']
 - link:
     ~/.zshenv: zsh/.zshenv
+    ~/.asdf: asdf
+    ~/.autoenv: autoenv
 - create:
     - ~/downloads
     - ~/.vim/undo-history
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+    - [ git submodule update --init --recursive, Installing submodules ]
